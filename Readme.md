@@ -42,7 +42,10 @@ One sample `.mat` signal recording is provided with the repository. Place them u
 `SignalData/`:
 
 An `.mat` recording is expected to contain a `data` array (the raw signal) and
-a `sampleRate` scalar; `ampsPerVolt` and related fields are used when present.
+a `sampleRate` scalar; 
+
+**Optional:**
+`ampsPerVolt` and related fields are used when present.
 CSV and `.npz` inputs are also supported.
 
 ## Demo workflow
