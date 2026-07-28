@@ -1,0 +1,27 @@
+{
+  "deriv_cutoff": 100.0,
+  "display_cutoff": 1000.0,
+  "pos_thresh": 5.281135956622905e-06,
+  "neg_thresh": -4.540777956935722e-06,
+  "endpoint_window": 1441,
+  "smooth_window": 10000,
+  "use_auto_tangent": false,
+  "region_margin": 0.3,
+  "region_margin_post": 0.3,
+  "merge_distance": 0.2,
+  "template_width": 500,
+  "zones": [
+    {
+      "deriv_cutoff": 100.0,
+      "display_cutoff": 1000.0,
+      "pos_thresh": 5.281135956622905e-06,
+      "neg_thresh": -4.540777956935722e-06,
+      "use_auto_tangent": false,
+      "smooth_window": 10000,
+      "region_margin": 0.3,
+      "region_margin_post": 0.3,
+      "merge_distance": 0.2,
+      "template_width": 500
+    }
+  ]
+}
