@@ -1,0 +1,10 @@
+{
+  "start_idx": 285879,
+  "end_idx": 300289,
+  "window_size": 100000,
+  "current_start": 266664,
+  "n_samples": 6000000,
+  "x_unit": "index",
+  "file_index": 0,
+  "file_name": ""
+}

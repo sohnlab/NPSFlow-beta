@@ -1,0 +1,432 @@
+[
+  {
+    "category": "FileI/O",
+    "label": "File I/O",
+    "blocks": [
+      {
+        "defName": "LoadData",
+        "displayName": "Load File"
+      },
+      {
+        "defName": "DataSummary",
+        "displayName": "Data Summary"
+      },
+      {
+        "defName": "SaveFile",
+        "displayName": "Save File"
+      },
+      {
+        "defName": "ExportAcceptedPulses",
+        "displayName": "Export Accepted Pulses"
+      }
+    ]
+  },
+  {
+    "category": "Device",
+    "label": "Device",
+    "blocks": [
+      {
+        "defName": "DeviceGeometry",
+        "displayName": "Device Geometry"
+      },
+      {
+        "defName": "LoadGeometry",
+        "displayName": "Load Geometry"
+      },
+      {
+        "defName": "PlatformDetection",
+        "displayName": "Platform Detection"
+      }
+    ]
+  },
+  {
+    "category": "Variables",
+    "label": "Variables",
+    "blocks": [
+      {
+        "defName": "DataBus",
+        "displayName": "Data Bus"
+      },
+      {
+        "defName": "ConstantBlock",
+        "displayName": "Constant"
+      },
+      {
+        "defName": "TextBlock",
+        "displayName": "Text"
+      },
+      {
+        "defName": "UnpackStruct",
+        "displayName": "Unpack Variable"
+      },
+      {
+        "defName": "PackVariable",
+        "displayName": "Pack Variable"
+      },
+      {
+        "defName": "CombineData",
+        "displayName": "Combine Data"
+      },
+      {
+        "defName": "CompileTable",
+        "displayName": "Compile Table"
+      },
+      {
+        "defName": "DefineParameters",
+        "displayName": "Define Parameters"
+      },
+      {
+        "defName": "GlobalSampleRate",
+        "displayName": "Global Sample Rate"
+      }
+    ]
+  },
+  {
+    "category": "FlowControl",
+    "label": "Flow Control",
+    "blocks": [
+      {
+        "defName": "Priority",
+        "displayName": "Sequence"
+      },
+      {
+        "defName": "StartBlock",
+        "displayName": "Start"
+      }
+    ]
+  },
+  {
+    "category": "Preprocessing",
+    "label": "Processing",
+    "blocks": [
+      {
+        "defName": "InvertData",
+        "displayName": "Invert Data"
+      },
+      {
+        "defName": "TrimData",
+        "displayName": "Trim Data"
+      },
+      {
+        "defName": "PulseTemplateDetrend",
+        "displayName": "Linear Detrending"
+      },
+      {
+        "defName": "PulseTemplateExtractor",
+        "displayName": "Template Extractor"
+      },
+      {
+        "defName": "PulseTemplateProcessing",
+        "displayName": "Pulse Template Processing"
+      },
+      {
+        "defName": "WaveletEditor",
+        "displayName": "Wavelet Editor"
+      },
+      {
+        "defName": "ExtractSinglePulseFeatures",
+        "displayName": "Pulse Processing"
+      },
+      {
+        "defName": "ExtractCoincidentPulseFeatures",
+        "displayName": "Coincident Processing"
+      },
+      {
+        "defName": "PulseFeatureExtraction",
+        "displayName": "Template Slicing"
+      },
+      {
+        "defName": "PulseSlicing",
+        "displayName": "Pulse Slicing"
+      },
+      {
+        "defName": "ExtractSegmentInfo",
+        "displayName": "Extract Segment Info"
+      },
+      {
+        "defName": "RegionSelectionUI",
+        "displayName": "Region Selection UI"
+      },
+      {
+        "defName": "SegmentProcessing",
+        "displayName": "Segment Processing"
+      },
+      {
+        "defName": "TrainingData",
+        "displayName": "Training Data"
+      }
+    ]
+  },
+  {
+    "category": "Filters",
+    "label": "Filters",
+    "blocks": [
+      {
+        "defName": "FilterBandpass",
+        "displayName": "Filter Bandpass"
+      },
+      {
+        "defName": "FilterUI",
+        "displayName": "Filter UI"
+      },
+      {
+        "defName": "FilterConfig",
+        "displayName": "Filter Config"
+      },
+      {
+        "defName": "FilterHighpass",
+        "displayName": "Filter Highpass"
+      },
+      {
+        "defName": "FilterLowpass",
+        "displayName": "Filter Lowpass"
+      },
+      {
+        "defName": "FilterNotch",
+        "displayName": "Filter Notch"
+      }
+    ]
+  },
+  {
+    "category": "Detection",
+    "label": "Detection",
+    "blocks": [
+      {
+        "defName": "PulseRegionReview",
+        "displayName": "Detection Review"
+      },
+      {
+        "defName": "MultizoneDetectionReview",
+        "displayName": "Detection Review (mz)"
+      },
+      {
+        "defName": "PulseDetectionBC",
+        "displayName": "Pulse Detection BC"
+      },
+      {
+        "defName": "CwtEvaluator",
+        "displayName": "CWT Evaluator"
+      }
+    ]
+  },
+  {
+    "category": "Sorting",
+    "label": "Sorting",
+    "blocks": [
+      {
+        "defName": "RealtimeDetectionCWT",
+        "displayName": "RT Detection (CWT)"
+      },
+      {
+        "defName": "ThresholdDetection",
+        "displayName": "RT Detection (Threshold)"
+      },
+      {
+        "defName": "CombinedDetection",
+        "displayName": "RT Detection (Combined)"
+      },
+      {
+        "defName": "MLSplit",
+        "displayName": "ML Split"
+      },
+      {
+        "defName": "MLTrain",
+        "displayName": "ML Train"
+      },
+      {
+        "defName": "MLEvaluate",
+        "displayName": "ML Evaluate"
+      },
+      {
+        "defName": "MLClassify",
+        "displayName": "ML Classify"
+      },
+      {
+        "defName": "MLTraining",
+        "displayName": "ML Training"
+      },
+      {
+        "defName": "ExtractLabeledPulses",
+        "displayName": "Extract Labeled Pulses"
+      }
+    ]
+  },
+  {
+    "category": "Analysis",
+    "label": "Analysis",
+    "blocks": [
+      {
+        "defName": "AnalysisMethodSelector",
+        "displayName": "Analysis Method Selector"
+      },
+      {
+        "defName": "ClusterBlock",
+        "displayName": "Cluster"
+      },
+      {
+        "defName": "ZoneSelection",
+        "displayName": "Zone Selection"
+      },
+      {
+        "defName": "TotalSegmentWidth",
+        "displayName": "Total Segment Width"
+      },
+      {
+        "defName": "DetectionAgreement",
+        "displayName": "Detection Agreement"
+      }
+    ]
+  },
+  {
+    "category": "Calculation",
+    "label": "Calculation",
+    "blocks": [
+      {
+        "defName": "WCDI",
+        "displayName": "wCDI"
+      },
+      {
+        "defName": "StatisticsBlock",
+        "displayName": "Statistics"
+      },
+      {
+        "defName": "RecoveryInfo",
+        "displayName": "Recovery Info"
+      },
+      {
+        "defName": "RecoveryAnalysis",
+        "displayName": "Recovery Analysis"
+      },
+      {
+        "defName": "FilterRows",
+        "displayName": "Filter Rows"
+      },
+      {
+        "defName": "PoreDiameter",
+        "displayName": "Pore Diameter"
+      },
+      {
+        "defName": "DeformedDiameter",
+        "displayName": "Deformed Diameter"
+      },
+      {
+        "defName": "DROverR",
+        "displayName": "dR/R"
+      },
+      {
+        "defName": "SizeCalculation",
+        "displayName": "Size Calculation"
+      },
+      {
+        "defName": "ExtractSegmentWidth",
+        "displayName": "Extract Segment Width"
+      },
+      {
+        "defName": "SegmentWidthToTime",
+        "displayName": "Width \u2192 Time"
+      },
+      {
+        "defName": "NodePoreVelocity",
+        "displayName": "Velocity"
+      },
+      {
+        "defName": "Strain1D",
+        "displayName": "Strain 1D"
+      }
+    ]
+  },
+  {
+    "category": "Math",
+    "label": "Math",
+    "blocks": [
+      {
+        "defName": "ReciprocalBlock",
+        "displayName": "Reciprocal"
+      },
+      {
+        "defName": "GainBlock",
+        "displayName": "Gain"
+      },
+      {
+        "defName": "MeanBlock",
+        "displayName": "Mean"
+      },
+      {
+        "defName": "DifferenceBlock",
+        "displayName": "Difference"
+      },
+      {
+        "defName": "WeightedMean",
+        "displayName": "Weighted Mean"
+      }
+    ]
+  },
+  {
+    "category": "Plot",
+    "label": "Plot",
+    "blocks": [
+      {
+        "defName": "PlotData",
+        "displayName": "Plot Data"
+      },
+      {
+        "defName": "PlotVector",
+        "displayName": "Plot Vector"
+      },
+      {
+        "defName": "PlotSnippet",
+        "displayName": "Plot Snippet"
+      }
+    ]
+  },
+  {
+    "category": "Utility",
+    "label": "Utility",
+    "blocks": [
+      {
+        "defName": "CustomCode",
+        "displayName": "Custom Code"
+      },
+      {
+        "defName": "DisplayBlock",
+        "displayName": "Display"
+      },
+      {
+        "defName": "DebugLabeling",
+        "displayName": "Debug - Labeling"
+      }
+    ]
+  },
+  {
+    "category": "SubPipeline",
+    "label": "Super Blocks",
+    "blocks": [
+      {
+        "defName": "SubPipeline_Load___Plot_dR_R",
+        "displayName": "Load & Plot dR/R"
+      }
+    ]
+  },
+  {
+    "category": "__unused__",
+    "label": "Unused",
+    "blocks": [
+      {
+        "defName": "UserChoiceBlock",
+        "displayName": "User Choice"
+      },
+      {
+        "defName": "LoadCSVData",
+        "displayName": "Load Data File"
+      },
+      {
+        "defName": "LoadLabeledData",
+        "displayName": "Load Labeled Data"
+      },
+      {
+        "defName": "LoadNPSData",
+        "displayName": "Load NPS Data"
+      }
+    ]
+  }
+]
